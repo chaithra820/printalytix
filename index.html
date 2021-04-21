@@ -110,7 +110,7 @@
     <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Welcome to YOUR One-Stop-Shoppppp</h1><br>
+          <h1>Welcome to YOUR One-Stop-Shop</h1><br>
           <p>where Reliability meets Transparency.</p>     
          
          <!-- <div class="btns">
@@ -149,10 +149,10 @@
               <img src="assets/img/img/img2.jpeg">
             </div>
           </div>-->
-          <section id="about" class="about" style="background-color: #EFDFA1">
+          <section id="about" class="about">
       <div class="container" data-aos="fade-up">
-        <h2 style="color:#000;">Why Us</h2>
-        <div class="row">
+        <h2>Why Us</h2>
+        
          <!-- <div class="col-lg-6 order-1 order-lg-2">
             <div class="about-img">
               <img src="assets/img/img/img1.jpeg">
@@ -164,7 +164,7 @@
             </div>
           </div>-->
          
-                <ul style="color: black;">
+                <ul>
                   <li style="text-align: justify;">Printalytix is a fast growing, B2B One-stop shop for all mechanical made-to-order product requirements.</li>
                   <li style="text-align: justify;">We have been able to understand and clearly define the problems for its customers, thinking from their hats, every single time when we get to the table.</li>
                   <li style="text-align: justify;">We have not just understood the specific bottlenecks, but have been able to modularize the solutions into 3 specific channels which will support customers from testing the design concepts to being ready for Go-To-Markets.</li>
@@ -237,7 +237,7 @@
         </div>
       </div>
     </section>
-    <section id="portfolio" class="portfolio">
+    <!--<section id="portfolio" class="portfolio"></section>
       <div class="container1">
 
         <div class="section-title">
@@ -349,7 +349,7 @@
         </div>
 
       </div>
-    </section>
+    </section>-->
     <!--<section id="about" class="about">
       <div class="container" data-aos="fade-up">
         <h2 style="color:#000;">Our Offering</h2>
@@ -375,8 +375,56 @@
        </div>
       </div>
     </section>--><!-- End About Section -->
+    <section>
+      <h2 style="color:#000;">Our Offering</h2>
+      <ul>
+        <li class="list active" data-filter="All">All</li>
+        <li class="list" data-filter="Additive">Additive Tech</li>
+        <li class="list" data-filter="Subtractive">Subtractive Tech</li>
+        <li class="list" data-filter="Formative">Formative Tech</li>
 
-     <section id="about" class="about">
+      </ul>
+      <div class="product">
+        <div class="itemBox Additive"><img src="assets/img/portfolio/Additive/ad1.jpg"></div>
+        <div class="itemBox Subtractive"><img src="assets/img/portfolio/Substractive/sb1.jpg"></div>
+        <div class="itemBox Formative"><img src="assets/img/portfolio/Formative/fm1.png"></div>
+        <div class="itemBox Additive"><img src="assets/img/portfolio/Additive/ad5.png"></div>
+        <div class="itemBox Subtractive"><img src="assets/img/portfolio/Substractive/sb2.jpg"></div>
+        <div class="itemBox Formative"><img src="assets/img/portfolio/Formative/fm2.jpg"></div>
+        <div class="itemBox Additive"><img src="assets/img/portfolio/Additive/ad3.jpg"></div>
+        <div class="itemBox Subtractive"><img src="assets/img/portfolio/Substractive/sb3.png"></div>
+        <div class="itemBox Formative"><img src="assets/img/portfolio/Formative/fm3.png"></div>
+        <div class="itemBox Additive"><img src="assets/img/portfolio/Additive/ad4.jpg"></div>
+        <div class="itemBox Subtractive"><img src="assets/img/portfolio/Substractive/sb4.jpg"></div>
+        <div class="itemBox Formative"><img src="assets/img/portfolio/Formative/fm4.png"></div>
+      </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    
+    <script type="text/javascript">
+     $(document).ready(function(){
+       $('.list').click(function(){
+         const value = $(this).attr('data-filter');
+         if (value == 'All'){
+           $('.itemBox').show('1000');
+           
+         }
+         else{
+           $('.itemBox').not('.'+value).hide('1000');
+           $('.itemBox').filter('.'+value).show('1000');
+         }
+     })
+     //add active class on selected item
+      $('.list').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+      })
+  })
+    </script>
+
+    <section id="about" class="about">
       <div class="container" data-aos="fade-up">
         <h6 style="color:#000  ;">Our Strategic Partners</h6>
         <div class="row">
@@ -397,28 +445,28 @@
         <div class="row" data-aos="zoom-in">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/sp1.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/sp2.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/sp3.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/sp4.png" class="img-fluid" alt="">
           </div>
 
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/sp5.png" class="img-fluid" alt="">
           </div>
 
            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/sp6.png" class="img-fluid" alt="">
           </div>
 
         </div>
