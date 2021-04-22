@@ -605,13 +605,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f3a514;
-  background: #f3a514;
+  border: 2px solid #cda45e;
+  background: #cda45e;
 }
 
 #hero .btn-get-started:hover {
   background: transparent;
-  color: #f3a514;
+  color: #cda45e;
   text-decoration: none;
 }
 
@@ -1945,17 +1945,14 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-section1
-{
-  margin: 0;
-  padding: 20px ;
+section1{
+  padding: 20px;
   width: 1280px;
   margin: 40px auto;
 }
@@ -1965,36 +1962,30 @@ section1 ul{
 }
 section1 ul li{
   list-style: none;
-  background: #8F887D;
+  background: #fff;
   padding: 8px 20px;
   margin: 5px;
-  letter-spacing: 1px;
   cursor: pointer;
 }
-section1 ul li.active
-{
-  background: #e9a82f;
-  color: #fff;
+section1 ul li.active{
+  background: #cda45e;
+  color: #000;
 }
 .product1{
   display: flex;
   flex-wrap: wrap;
 }
-.product1 .itemBox
-{
+.product1 .itemBox{
   position: relative;
   width: 300px;
   height: 300px;
   margin: 5px;
 }
-.product1 .itemBox img
-{
-  position: absolute;
+.product1 .itemBox img{
+  position:absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height:100%;
   object-fit: cover;
-
 }
-
