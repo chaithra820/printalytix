@@ -1952,6 +1952,7 @@ section {
   font-family: 'Poppins', sans-serif;
 }
 section1{
+  margin: 0;
   padding: 20px;
   width: 1280px;
   margin: 40px auto;
