@@ -984,7 +984,7 @@ section {
   border: 0;
   padding: 12px 15px;
   transition: 0.3s;
-  color: #fff;
+  color: #000;
   border-radius: 0;
   border-right: 2px solid #cda45e;
   font-weight: 600;
@@ -1018,7 +1018,7 @@ section {
 }
 
 .specials .details p {
-  color: #aaaaaa;
+  color: #000;
 }
 
 .specials .details p:last-child {
