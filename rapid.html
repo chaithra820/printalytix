@@ -170,7 +170,7 @@
       </div>
     </section>
 
-     <section id="about" class="about">
+    <!--- <section id="about" class="about">
       <div class="container" data-aos="fade-up">
         <h5 style="color:#000  ;">Rapid Prototyping</h5>
         <div class="row">
@@ -188,13 +188,62 @@
                   <li>-MJF</li>
                   <li>-DMLS</li>
                   <li>-POLYJET</li>
-            </ul>
-            
-          
-          </div>
-        </div>
-      </div>
-    </section>
+            </ul> </div></div></div></section>-->
+
+            <section1> 
+              <h1 style="color:#000;text-align: center;">Technologies</h1>
+               <center><ul>
+                 <li class="list active" data-filter="All">All</li>
+                 <li class="list" data-filter="Additive">FDM</li>
+                 <li class="list" data-filter="Subtractive">SLA</li>
+                 <li class="list" data-filter="Formative">SLS</li>
+                 <li class="list" data-filter="MJF">MJF</li>
+                 <li class="list" data-filter="DMLS">DMLS</li>
+                 <li class="list" data-filter="POLYJET">POLYJET</li>
+         
+               </ul></center>
+               <div class="product1">
+                 <div class="itemBox Additive"><img src="assets/img/portfolio/Additive/ad1.jpg"></div>
+                 <div class="itemBox Subtractive"><img src="assets/img/portfolio/Substractive/sb1.jpg"></div>
+                 <div class="itemBox Formative"><img src="assets/img/portfolio/Formative/fm1.png"></div>
+                 <div class="itemBox Additive"><img src="assets/img/portfolio/Additive/ad5.png"></div>
+                 <div class="itemBox Subtractive"><img src="assets/img/portfolio/Substractive/sb2.jpg"></div>
+                 <div class="itemBox Formative"><img src="assets/img/portfolio/Formative/fm2.jpg"></div>
+                 <div class="itemBox Additive"><img src="assets/img/portfolio/Additive/ad3.jpg"></div>
+                 <div class="itemBox Subtractive"><img src="assets/img/portfolio/Substractive/sb3.png"></div>
+                 <div class="itemBox Formative"><img src="assets/img/portfolio/Formative/fm3.png"></div>
+                 <div class="itemBox Additive"><img src="assets/img/portfolio/Additive/ad4.jpg"></div>
+                 <div class="itemBox Subtractive"><img src="assets/img/portfolio/Substractive/sb4.jpg"></div>
+                 <div class="itemBox Formative"><img src="assets/img/portfolio/Formative/fm4.png"></div>
+               </div>
+             </section1>
+             
+             
+             <script src="https://code.jquery.com/jquery-3.5.1.js"
+             integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+             crossorigin="anonymous"></script>
+             
+             <script type="text/javascript">
+              $(document).ready(function(){
+                $('.list').click(function(){
+                  const value = $(this).attr('data-filter');
+                  if (value == 'All'){
+                    $('.itemBox').show('1000');
+                    
+                  }
+                  else{
+                    $('.itemBox').not('.'+value).hide('1000');
+                    $('.itemBox').filter('.'+value).show('1000');
+                  }
+              })
+              //add active class on selected item
+               $('.list').click(function(){
+                 $(this).addClass('active').siblings().removeClass('active');
+               })
+           })
+             </script>
+
+
 
     <section id="services1" class="services1">
       <div class="container7">

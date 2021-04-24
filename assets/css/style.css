@@ -2136,3 +2136,45 @@ advantages
   line-height: 24px;
   margin-bottom: 0;
 }
+/*-----------------
+advantage custom
+-----------*/
+.services2 {
+  padding-bottom: 30px;
+}
+
+.services2 .icon-box {
+  margin-bottom: 60px;
+}
+
+.services2 .icon {
+  float: left;
+}
+
+.services2 .icon i {
+color:#cda45e ;
+  font-size: 36px;
+  line-height: 1;
+}
+
+.services2 .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services2 .title a {
+  color: #343a40;
+  transition: 0.3s;
+}
+
+.services2 .icon-box:hover .title a {
+  color: #cda45e;
+}
+
+.services2 .description {
+  margin-left: 60px;
+  line-height: 24px;
+  font-size: 14px;
+}
