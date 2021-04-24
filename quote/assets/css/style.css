@@ -167,6 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   padding: 15px 0;
   top: 40px;
+  background-size: cover;
 }
 
 #header.header-scrolled {
@@ -190,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 70px;
+  max-height: 100px;
 }
 
 /*--------------------------------------------------------------
