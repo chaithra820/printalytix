@@ -562,19 +562,6 @@ h1, h2, h3, h4, h5, h6 {
   transform: translate3d(0, 0, 0);
 }
 
-#hero .carousel-control-prev, #hero .carousel-control-next {
-  width: 10%;
-}
-
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 48px;
-  line-height: 1;
-  width: auto;
-  height: auto;
-  color: #000;
-}
-
 #hero .carousel-indicators li {
   cursor: pointer;
   background: #e96b56;
@@ -2086,7 +2073,7 @@ counts
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #000;
+  color: #cda45e;
 }
 
 .counts .counters p {
@@ -2094,4 +2081,58 @@ counts
   margin: 0 0 20px 0;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
+}
+/*-------------------------
+advantages
+----------------*/
+.services1 .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.4s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.services1 .icon-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
+}
+
+.services1 .icon {
+  position: absolute;
+  left: -20px;
+  top: calc(50% - 30px);
+}
+
+.services1 .icon i {
+  font-size: 64px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+.services1 .title {
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services1 .title a {
+  color: #2a2c39;
+  transition: ease-in-out 0.3s;
+}
+
+.services1 .title a:hover {
+  color: #ef6603;
+}
+
+.services1 .description {
+  font-size: 14px;
+  margin-left: 40px;
+  line-height: 24px;
+  margin-bottom: 0;
 }
