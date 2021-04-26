@@ -2066,7 +2066,7 @@ section1 ul li.active{
 /*-------------------------------------------------
 counts
 -------------------*/
-.counts {
+/*---------.counts {
   padding: 40px 0;
 }
 
@@ -2082,7 +2082,7 @@ counts
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   color:#050504 ;
-}
+}------*/
 /*-------------------------
 advantages
 ----------------*/
@@ -2277,7 +2277,7 @@ f-icon contarct------*/
 
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
-  line-height: 44px;
+  line-height: 50px;
   color: #0245bc;
   margin-right: 15px;
 }
@@ -2286,5 +2286,162 @@ f-icon contarct------*/
   font-size: 15px;
   color: #848484;
 }
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  padding: 20px 0;
+}
+
+.counts .count-box {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  margin-right: 60px;
+  background: #fff;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.counts .count-box i {
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+  color: #6972ecc7;
+}
+
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #052692a8;
+}
+
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+
+/*----contract--*/
+.services99 .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 4px;
+  text-align: center;
+  border-bottom: 3px solid #fff;
+}
+
+.services99 .icon-box:hover {
+  transform: translateY(-5px);
+}
+
+.services99 .icon i {
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+.services99 .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services99 .title a {
+  color: #111;
+}
+
+.services99 .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.services99 .icon-box-pink .icon i {
+  color: #ff689b;
+}
+
+.services99 .icon-box-pink:hover {
+  border-color: #ff689b;
+}
+
+.services99 .icon-box-cyan .icon i {
+  color: #3fcdc7;
+}
+
+.services99 .icon-box-cyan:hover {
+  border-color: #3fcdc7;
+}
+
+.services99 .icon-box-green .icon i {
+  color: #41cf2e;
+}
+
+.services99 .icon-box-green:hover {
+  border-color: #41cf2e;
+}
+
+.services99 .icon-box-blue .icon i {
+  color: #2282ff;
+}
+
+.services99 .icon-box-blue:hover {
+  border-color: #2282ff;
+}
+
+/*--------------------------------------------------------------
+# Steps
+--------------------------------------------------------------*/
+.steps {
+  padding: 50px 0 40px 0;
+}
+
+.steps .row {
+  overflow: hidden;
+}
+
+.steps .content-item {
+  padding: 40px;
+  border-left: 1px solid #d4e9e6;
+  border-bottom: 1px solid #d4e9e6;
+  margin: -1px;
+}
+
+.steps .content-item span {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  color: #1bac91;
+}
+
+.steps .content-item h4 {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 0;
+  margin: 20px 0;
+  color: #21413c;
+}
+
+.steps .content-item p {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .steps .content-item {
+    padding: 40px 0;
+  }
+}
+
 
 
