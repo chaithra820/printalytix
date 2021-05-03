@@ -333,18 +333,66 @@
 
 
     <section1> 
+      <style>
+        .dropbtn {
+          background-color: #d38c3b;
+          color: white;
+          padding: 16px;
+          font-size: 15px;
+          border: none;
+          cursor: pointer;
+          width: 150px;
+          height: 50px;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 150px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 36px;
+          width: 150px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #d6692a}
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+          color: red;
+        }
+        
+        .dropdown:hover .dropbtn {
+          background-color: #cda45e;
+        }
+        </style>
       <h1 style="color:#000;text-align: center;">Technologies</h1>
-       <center><ul>
-         <li class="list active" data-filter="All">All</li>
-         <li class="list" data-filter="Additive">SLS</li>
-         <!--<li class="list" data-filter="Subtractive">MJF</li>
-         <li class="list" data-filter="Formative">DMLS</li>
-         <li class="list" data-filter="Subtractive">Vacuum Casting</li>
-         <li class="list" data-filter="Subtractive">Injection Molding</li>
-         <li class="list" data-filter="Metal Fabrication">Metal Fabrication</li>
-         <li class="list" data-filter="Laser Cutting">Laser Cutting</li>-->
+      <center> <div class="dropdown">
+        <button class="dropbtn">Select</button>
+       <div class="dropdown-content">
+         <a class="list active" data-filter="All">All</a>
+         <a class="list" data-filter="Additive">SLS</a>
+         <a class="list" data-filter="Subtractive">MJF</a>
+         <a class="list" data-filter="Formative">DMLS</a>
+         <a class="list" data-filter="Subtractive">Vacuum Casting</a>
+         <a class="list" data-filter="Subtractive">Injection Molding</a>
+         <a class="list" data-filter="Metal Fabrication">Metal Fabrication</a>
+        <!--- <a class="list" data-filter="Laser Cutting">Laser Cutting</li>-->
          
-    </ul></center>
+        </div>
+      </div></center>
        <div class="product1">
          <div class="itemBox Additive"><img src="assets/img/portfolio/Additive/ad1.jpg"></div>
          <div class="itemBox Subtractive"><img src="assets/img/portfolio/Substractive/sb1.jpg"></div>
