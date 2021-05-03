@@ -2308,8 +2308,8 @@ f-icon contarct------*/
   align-items: center;
   padding: 30px;
   width: 100%;
-  margin-right: 70px;
-  background: #fff;
+  margin-right: 60px;
+  background: rgb(255, 255, 255);
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
 
