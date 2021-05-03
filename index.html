@@ -495,14 +495,68 @@
     </section>-->
 
       <section1>
+        <style>
+          .dropbtn {
+            background-color: #d38c3b;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width: 200px;
+          }
+          
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: black;
+            padding: 12px 36px;
+            width: 200px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          .dropdown-content a:hover {background-color: #d6692a}
+          
+          .dropdown:hover .dropdown-content {
+            display: block;
+            color: red;
+          }
+          
+          .dropdown:hover .dropbtn {
+            background-color: #cda45e;
+          }
+          </style>
+        
+
         <h2 style="color: #000; text-align: center">Our Offering</h2>
-       
-          <ul>
-            <li class="list active" data-filter="All">All</li>
-            <li class="list" data-filter="Additive">Additive</li><br>
-            <!--<li class="list" data-filter="Subtractive">Subtractive</li>
-            <li class="list" data-filter="Formative">Formative</li>-->
-          </ul>
+        <center> <div class="dropdown">
+          <button class="dropbtn">Select</button>
+         <div class="dropdown-content">
+           <a  class="list active" data-filter="All">All</a>
+           <a  class="list" data-filter="Additive">Additive</a>
+           <a  class="list" data-filter="Subtractive">Subtractive</a>
+         <!-- <ul>
+           <li class="list active" data-filter="All">All</li>
+           <li class="list" data-filter="Additive">Additive Tech</li>
+           <li class="list" data-filter="Subtractive">Subtractive Tech</li>
+           <br><li class="list" data-filter="Formative">Formative Tech</li>
+   
+         </ul> -->
+       </div>
+     </div></center>
      
         <div class="product1">
           <div class="itemBox Additive">
@@ -700,11 +754,11 @@
             data-aos-delay="100"
           >
             <div class="testimonial-item">
-              <p>
+              <p style="text-align: justify;">
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec
-                porttitora entum suscipit rhoncus. Accusantium quam, ultricies
-                eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                The service from Printalytix was excellent. I like 3D Printing more and more each
+                day because it makes my life a lot easier and the guys behind it thoroughly
+                understood my product needs.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/g3.jpg" class="testimonial-img" alt="" />
@@ -713,11 +767,10 @@
             </div>
 
             <div class="testimonial-item">
-              <p>
+              <p style="text-align: justify;">
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse
-                labore quem cillum quid cillum eram malis quorum velit fore eram
-                velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                Right structure in terms of project management and production planning is my key
+                takeaway with Printalytix. Appreciate persistence and competitive pricing of Products.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/g3.jpg" class="testimonial-img" alt="" />
