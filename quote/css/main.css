@@ -76,7 +76,7 @@ p {
 	font-family: Poppins-Regular;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	color: #fff;
 	margin: 0px;
 }
 
@@ -367,7 +367,7 @@ textarea.input100 {
   padding: 0 20px;
   min-width: 160px;
   height: 50px;
-  background-color: #57b846;
+  background-color: #cda45e;
   border-radius: 25px;
 
   font-family: Poppins-Regular;
