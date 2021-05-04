@@ -349,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   z-index: 9999;
-  overflow-y: auto;
+  overflow-x: hidden;
   background: #1a1814;
   border: 2px solid rgba(255, 255, 255, 0.1);
   transition: ease-in-out 0.2s;
