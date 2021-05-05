@@ -1536,7 +1536,7 @@ section {
   font-size: 14px;
   background: #fff;
   border-color: #625b4b;
-  color: white;
+  color: #000;
 }
 
 .contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {

@@ -23,7 +23,7 @@ require 'phpmailer/SMTP.php';
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->Mailer = "smtp";
-$mail->SMTPDebug  = 0;  
+$mail->SMTPDebug  = 1;  
 $mail->SMTPAuth   = TRUE;
 $mail->SMTPSecure = "ssl";
 $mail->Port       = 465;
@@ -31,18 +31,24 @@ $mail->Host       = "business48.web-hosting.com";
 $mail->Username   = "kaisher@webxinfinity.in";
 $mail->Password   = "Webx@123";
 $mail->IsHTML(true);
-$mail->AddAddress("info@creaciontechnologies.com", "Contact");
-$mail->SetFrom("kaisher@webxinfinity.in", "Contact");
-$mail->AddReplyTo("info@creaciontechnologies.com", "Contact");
-$mail->AddCC("info@creaciontechnologies.com", "Contact");
-$mail->Subject = "Contact Info";
+$mail->AddAddress("chaitrahs.5555@gmail.com", "quote");
+$mail->SetFrom("kaisher@webxinfinity.in", "quote");
+$mail->AddReplyTo("chaitrahs.5555@gmail.com", "quote");
+$mail->AddCC("chaitrahs.5555@gmail.com", "quote");
+$mail->Subject = "quote Info";
 $content = "
- <b>Name</b>:".$name."<br>
+ <b>fullname</b>:".$fullname."<br>
+ <b>designation</b>: ".$designation."<br>
+ <b>company</b>:".$company."<br>
+ <b>parts </b>:".$parts."<br>
+ <b>technology</b>: ".$technology."<br>
+ <b>color</b>: ".$color."<br>
+ <b>processing</b>: ".$processing."<br>
+ <b>models</b>: ".$models."<br>
+ <b>files</b>: ".$files."<br>
  <b>email</b>: ".$email."<br>
- <b>phone</b>:".$phone."<br>
- <b>Subject</b>: ".$sub."<br>
-
- <b> message</b>=".$message."<br>
+ <b>phone</b>: ".$phone."<br>
+ <b>message</b>=".$message."<br>
 ";
 $mail->MsgHTML($content); 
 if(!$mail->Send()) {
