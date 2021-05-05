@@ -31,10 +31,10 @@ $mail->Host       = "business48.web-hosting.com";
 $mail->Username   = "kaisher@webxinfinity.in";
 $mail->Password   = "Webx@123";
 $mail->IsHTML(true);
-$mail->AddAddress("chaitrahs.5555@gmail.com", "quote");
+$mail->AddAddress("connect@printalytix.com", "quote");
 $mail->SetFrom("kaisher@webxinfinity.in", "quote");
-$mail->AddReplyTo("chaitrahs.5555@gmail.com", "quote");
-$mail->AddCC("chaitrahs.5555@gmail.com", "quote");
+$mail->AddReplyTo("connect@printalytix.com", "quote");
+$mail->AddCC("connect@printalytix.com", "quote");
 $mail->Subject = "quote Info";
 $content = "
  <b>fullname</b>:".$fullname."<br>
@@ -48,8 +48,9 @@ $content = "
  <b>files</b>: ".$files."<br>
  <b>email</b>: ".$email."<br>
  <b>phone</b>: ".$phone."<br>
- <b>message</b>=".$message."<br>
+ <b>message</b>:".$message."<br>
 ";
+
 $mail->MsgHTML($content); 
 if(!$mail->Send()) {
   echo "Error while sending Email.";
@@ -61,10 +62,4 @@ if(!$mail->Send()) {
  <h1>Redirecting.....</h1>
  <meta http-equiv='refresh' content='1; URL=index.html' />";
 }
-
-
-
-
-
-
 ?>

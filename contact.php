@@ -16,22 +16,22 @@ $mail->IsSMTP();
 $mail->Mailer = "smtp";
 $mail->SMTPDebug  = 1;  
 $mail->SMTPAuth   = TRUE;
-$mail->SMTPSecure = "ssl";9+
+$mail->SMTPSecure = "ssl";
 $mail->Port       = 465;
 $mail->Host       = "business48.web-hosting.com";
 $mail->Username   = "kaisher@webxinfinity.in";
 $mail->Password   = "Webx@123";
 $mail->IsHTML(true);
-$mail->AddAddress("chaitrahs.5555@gmail.com", "contact");
+$mail->AddAddress("connect@printalytix.com", "contact");
 $mail->SetFrom("kaisher@webxinfinity.in", "contact");
-$mail->AddReplyTo("chaitrahs.5555@gmail.com", "contact");
-$mail->AddCC("chaitrahs.5555@gmail.com", "contact");
+$mail->AddReplyTo("connect@printalytix.com", "contact");
+$mail->AddCC("connect@printalytix.com", "contact");
 $mail->Subject = "contact Info";
 $content = "
  <b>Name</b>:".$name."<br>
  <b>email</b>: ".$email."<br>
  <b>Subject</b>: ".$subject."<br>
- <b>message</b>=".$message."<br>
+ <b>message</b>:".$message."<br>
 ";
 
 $mail->MsgHTML($content); 
