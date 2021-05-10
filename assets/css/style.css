@@ -1493,14 +1493,7 @@ section {
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
+
 
 .contact .php-email-form .sent-message {
   display: none;
@@ -1761,7 +1754,7 @@ section {
 }
 
 .cliens img {
-  max-width: 45%;
+  max-width: 60%
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 17px 0;
