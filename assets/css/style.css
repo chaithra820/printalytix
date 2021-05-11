@@ -2453,7 +2453,7 @@ f-icon contarct------*/
 
 /* ==================================================
   Team Styling
-  ================================================== */
+  
   .team80 h2 {
     color: #199EB8;
   }
@@ -2547,4 +2547,93 @@ f-icon contarct------*/
   .team80 .card-title-wrap .card-text {
     font-size: 18px;
     color: #999;
+  }*/
+  /*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.teams {
+  position: relative;
+
+}
+
+.teams .container {
+  position: relative;
+  width: 60px;
+  z-index: 6;
+}
+
+.teams.member {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.teams .member .pic {
+  overflow: hidden;
+}
+
+.teams .member .member-info {
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 20px 15px;
+  color: #15222b;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.teams .member h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #15222b;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.teams .member h4::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #7fa5c0;
+  bottom: 0;
+  left: 0;
+}
+
+.teams .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.teams .member .social {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.teams .member .social a {
+  transition: color 0.3s;
+  color: #477392;
+}
+
+.teams .member .social a:hover {
+  color: #ff4a17;
+}
+
+.teams .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+.teams h2 {
+    color: #199EB8;
   }
+@media (max-width: 992px) {
+  .teams .member {
+    margin-bottom: 110px;
+  }
+}
