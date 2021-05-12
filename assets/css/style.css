@@ -2551,27 +2551,33 @@ f-icon contarct------*/
   /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.teams {
+.team {
   position: relative;
-
 }
 
-.teams .container {
+.team .containerss {
   position: relative;
-  width: 60px;
-  z-index: 6;
+  z-index: 10;
 }
 
-.teams.member {
+.team .member {
   margin-bottom: 80px;
   position: relative;
 }
 
-.teams .member .pic {
+.team .member .pic {
   overflow: hidden;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.team h2{
+  color: #fe9b2e;
+
 }
 
-.teams .member .member-info {
+.team .member .member-info {
   position: absolute;
   bottom: -50px;
   left: 20px;
@@ -2582,18 +2588,21 @@ f-icon contarct------*/
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: 0.5s;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.teams .member h4 {
+.team .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #15222b;
+  color: #B86A12 ;
   position: relative;
   padding-bottom: 10px;
 }
 
-.teams .member h4::after {
+.team .member h4::after {
   content: '';
   position: absolute;
   display: block;
@@ -2604,36 +2613,34 @@ f-icon contarct------*/
   left: 0;
 }
 
-.teams .member span {
+.team .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-.teams .member .social {
+.team .member .social {
   position: absolute;
   right: 15px;
   bottom: 15px;
 }
 
-.teams .member .social a {
+.team .member .social a {
   transition: color 0.3s;
   color: #477392;
 }
 
-.teams .member .social a:hover {
-  color: #ff4a17;
+.team .member .social a:hover {
+  color: #477392;
 }
 
-.teams .member .social i {
+.team .member .social i {
   font-size: 16px;
   margin: 0 2px;
 }
-.teams h2 {
-    color: #199EB8;
-  }
+
 @media (max-width: 992px) {
-  .teams .member {
+  .team .member {
     margin-bottom: 110px;
   }
 }
