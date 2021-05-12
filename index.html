@@ -496,140 +496,7 @@
       </div>
     </section>-->
 
-      <section1>
-        <style>
-          .dropbtn {
-            background-color: #d38c3b;
-            color: white;
-            padding: 16px;
-            font-size: 15px;
-            border: none;
-            cursor: pointer;
-            width: 150px;
-            height: 50px;
-          }
-          
-          .dropdown {
-            position: relative;
-            display: inline-block;
-          }
-          
-          .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 150px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-          }
-          
-          .dropdown-content a {
-            color: black;
-            padding: 12px 36px;
-            width: 150px;
-            text-decoration: none;
-            display: block;
-          }
-          
-          .dropdown-content a:hover {background-color: #d6692a}
-          
-          .dropdown:hover .dropdown-content {
-            display: block;
-            color: red;
-          }
-          
-          .dropdown:hover .dropbtn {
-            background-color: #cda45e;
-          }
-          </style>
-        
-
-        <h2 style="color: #000; text-align: center">Our Offering</h2>
-        <center> <div class="dropdown">
-          <button class="dropbtn">Select</button>
-         <div class="dropdown-content">
-           <a  class="list active" data-filter="All">All</a>
-           <a  class="list" data-filter="Additive">Additive</a>
-           <a  class="list" data-filter="Subtractive">Subtractive</a>
-           <a class="list" data-filter="Formative">Formative</a>
-         <!-- <ul>
-           <li class="list active" data-filter="All">All</li>
-           <li class="list" data-filter="Additive">Additive Tech</li>
-           <li class="list" data-filter="Subtractive">Subtractive Tech</li>
-           <br><li class="list" data-filter="Formative">Formative Tech</li>
-   
-         </ul> -->
-       </div>
-     </div></center>
-     
-        <div class="product1">
-          <div class="itemBox Additive">
-            <img src="assets/img/portfolio/Additive/ad1.jpg" />
-          </div>
-          <div class="itemBox Subtractive">
-            <img src="assets/img/portfolio/Substractive/sb1.jpg" />
-          </div>
-          <div class="itemBox Formative">
-            <img src="assets/img/portfolio/Formative/fm1.png" />
-          </div>
-          <div class="itemBox Additive">
-            <img src="assets/img/portfolio/Additive/ad5.png" />
-          </div>
-          <div class="itemBox Subtractive">
-            <img src="assets/img/portfolio/Substractive/sb2.jpg" />
-          </div>
-          <div class="itemBox Formative">
-            <img src="assets/img/portfolio/Formative/fm2.jpg" />
-          </div>
-          <div class="itemBox Additive">
-            <img src="assets/img/portfolio/Additive/ad3.jpg" />
-          </div>
-          <div class="itemBox Subtractive">
-            <img src="assets/img/portfolio/Substractive/sb3.png" />
-          </div>
-          <div class="itemBox Formative">
-            <img src="assets/img/portfolio/Formative/fm3.png" />
-          </div>
-          <div class="itemBox Additive">
-            <img src="assets/img/portfolio/Additive/ad4.jpg" />
-          </div>
-          <div class="itemBox Subtractive">
-            <img src="assets/img/portfolio/Substractive/sb4.jpg" />
-          </div>
-          <div class="itemBox Formative">
-            <img src="assets/img/portfolio/Formative/fm4.png" />
-          </div>
-        </div>
-      </section1>
-
-      <script
-        src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-        crossorigin="anonymous"
-      ></script>
-
-      <script type="text/javascript">
-        $(document).ready(function () {
-          $(".list").click(function () {
-            const value = $(this).attr("data-filter");
-            if (value == "All") {
-              $(".itemBox").show("1000");
-            } else {
-              $(".itemBox")
-                .not("." + value)
-                .hide("1000");
-              $(".itemBox")
-                .filter("." + value)
-                .show("1000");
-            }
-          });
-          //add active class on selected item
-          $(".list").click(function () {
-            $(this).addClass("active").siblings().removeClass("active");
-          });
-        });
-      </script>
-
+      
       <!-- <section id="about" class="about">
         <div class="container" data-aos="fade-up">
           <div class="row">
@@ -806,6 +673,58 @@
           </div>
         </div>
       </section>
+
+      <section id="about-video" class="about-video">
+        <div class="container30" data-aos="fade-up">
+          <div class="section-title">
+            <h1 class="text-center">Covid</h1>
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
+              <img src="assets/img/covid.jpg" class="img-fluid" alt="">
+              <a href="https://www.youtube.com/watch?v=PSnSo9kYlH4" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+            </div>
+  
+            <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+              <p style="text-align: justify;">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</p>
+            
+             <!--- <ul>
+                <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bx bx-check-double"></i> Voluptate repellendus pariatur reprehenderit corporis sint.</li>
+                <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              </ul>-->
+              <p style="text-align: justify;">
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                 voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
     <!-- End #main -->
 
